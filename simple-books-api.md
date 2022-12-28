@@ -34,6 +34,13 @@ Retrieve detailed information about a book.
 ### Submit an order ###
 
 POST `/orders`
+`http://localhost:5000/api/auth`
+or
+`https://simple-books-api.glitch.me`
+```
+"email" : "code1@gmail.com",
+"password" : "123456"
+```
 
 Allows you to submit a new order. Requires authentication.
 
